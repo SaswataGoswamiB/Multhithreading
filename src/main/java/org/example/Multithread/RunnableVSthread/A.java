@@ -1,0 +1,1 @@
+package org.example.Multithread.RunnableVSthread;public class A {}

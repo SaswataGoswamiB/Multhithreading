@@ -1,0 +1,1 @@
+package org.example.Multithread.RunnableVSthread;public class B extends A implements Runnable{    @Override    public void run() {    }    // when B extends A then we Cannot Extend Thread  so in that cases we have to use Runnable.}
