@@ -1,0 +1,1 @@
+package org.example.Multithread.Synchronization;public class MyThread extends Thread{    private Counter counter;    @Override    public void run() {       for(int i =0;i<1000;i++){           counter.increment();       }    }    public MyThread(Counter counter){        this.counter = counter;    }}

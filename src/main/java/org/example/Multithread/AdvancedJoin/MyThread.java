@@ -1,0 +1,1 @@
+package org.example.Multithread.AdvancedJoin;class MyThread extends Thread {    public void run() {        System.out.println(getName() + " is running.");        try {            Thread.sleep(2000);  // Sleep for 2 seconds        } catch (InterruptedException e) {            e.printStackTrace();        }        System.out.println(getName() + " has finished.");    }}
