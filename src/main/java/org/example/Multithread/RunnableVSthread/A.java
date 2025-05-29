@@ -1,1 +1,1 @@
-package org.example.Multithread.RunnableVSthread;public class A {}
+package org.example.Multithread.RunnableVSthread;public class A extends Thread {}
