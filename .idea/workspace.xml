@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be92e86f-a0fd-4bef-8a24-3c7fe9d5e6a9" name="Changes" comment="Synhxronization.">
+    <list default="true" id="be92e86f-a0fd-4bef-8a24-3c7fe9d5e6a9" name="Changes" comment="Sync">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Lock/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Lock/BankAccountExplicit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Lock/Lock.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Lock/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Methods/DaemonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Methods/DaemonThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Methods/Interrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Methods/Interrupt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Methods/TryMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Methods/TryMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Multithread/RunnableVSthread/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithread/RunnableVSthread/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Synchronization/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithread/Synchronization/Counter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
     "Application.DaemonThread.executor": "Run",
     "Application.Impl.executor": "Run",
     "Application.Interrupt.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.TestThread.executor": "Run",
     "Application.TryMethods.executor": "Run",
     "Application.YieldExample.executor": "Run",
@@ -73,7 +73,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DaemonThread">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Multithread.Methods.DaemonThread" />
       <module name="Multithreading" />
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Multithread.AdvancedJoin.TestThread" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Multithread.Lock.Test" />
       <module name="Multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Multithread.AdvancedJoin.*" />
+          <option name="PATTERN" value="org.example.Multithread.Lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.DaemonThread" />
         <item itemvalue="Application.YieldExample" />
         <item itemvalue="Application.Interrupt" />
         <item itemvalue="Application.TryMethods" />
-        <item itemvalue="Application.TestThread" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748384492997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sync">
+      <option name="closed" value="true" />
+      <created>1748534408206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748534408206</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,7 +196,8 @@
     <MESSAGE value="Creating Threads and LifeCycle" />
     <MESSAGE value="Creating Threads and lifecycle" />
     <MESSAGE value="Synhxronization." />
-    <option name="LAST_COMMIT_MESSAGE" value="Synhxronization." />
+    <MESSAGE value="Sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sync" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
